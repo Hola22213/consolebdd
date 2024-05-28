@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consolebdd", "consolebdd\consolebdd.csproj", "{4EB14347-D7B4-4DAE-963F-2C282A8C4B1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB14347-D7B4-4DAE-963F-2C282A8C4B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB14347-D7B4-4DAE-963F-2C282A8C4B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB14347-D7B4-4DAE-963F-2C282A8C4B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB14347-D7B4-4DAE-963F-2C282A8C4B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {727CDFB7-6022-493C-AB87-28EA0346ABD9}
+	EndGlobalSection
+EndGlobal
