@@ -27,7 +27,11 @@ namespace consolebdd.Models
         public string FullName => LastName + ", " + FirstMidName;
 
         // Propiedades de navegación
-        public ICollection<CourseAssignment> CourseAssignments { get; private set; } = new List<CourseAssignment>();
-        public OfficeAssignment? OfficeAssignment { get; private set; }
+        public virtual ICollection<CourseAssignment> CourseAssignments { get; private set; } = new List<CourseAssignment>();
+        public virtual OfficeAssignment? OfficeAssignment { get; private set; }
+
+        public Instructor()
+        {
+        }
     }
 }

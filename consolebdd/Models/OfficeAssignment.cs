@@ -17,6 +17,10 @@ namespace consolebdd.Models
         public string? Location { get; set; }
 
         // Propiedades de navegación
-        public Instructor? Instructor { get; set; }
+        public virtual Instructor? Instructor { get; set; }
+
+        public OfficeAssignment()
+        {
+        }
     }
 }

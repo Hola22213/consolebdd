@@ -17,7 +17,6 @@ namespace consolebdd.Data
             _connectionString = ConnectionStrings.DefaultConnection; 
         }
 
-
         public DbSet<Course> Courses { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Student> Students { get; set; }
@@ -28,7 +27,9 @@ namespace consolebdd.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(_connectionString);
+            options
+                //.UseLazyLoadingProxies()
+                .UseSqlServer(_connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

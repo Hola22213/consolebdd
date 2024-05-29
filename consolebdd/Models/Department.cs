@@ -28,12 +28,16 @@ namespace consolebdd.Models
         public int? InstructorId { get; set; }
 
         // Propiedades de navegación
-        public Instructor? Administrator { get; set; }
-        public ICollection<Course>? Courses { get; set; }
+        public virtual Instructor? Administrator { get; set; }
+        public virtual ICollection<Course>? Courses { get; set; }
 
         /*
         [Timestamp]
         public byte[]? RowVersion { get; set; }
         */
+
+        public Department()
+        {
+        }
     }
 }
